@@ -1,12 +1,15 @@
-# Compiled class file
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
+/*/.*
+/*/*/.*
+/*/*/*/.*
+/*/*/*/*/.*
+/*/class/*
+/*/classes/*
+/*/.gitignore
+/*/*/target/*
+/*/*/*/target/*
+/*/*/*/*/target/*
+/*/target/*
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
@@ -14,9 +17,34 @@
 *.jar
 *.war
 *.ear
-*.zip
-*.tar.gz
-*.rar
+
+#soa-backup/
+soa-backup/*
+soa-backup/**
+*/**/soa-backup/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/*/.settings/*
+/*/target/*
+/target/
+/*/bin/*
+/*/log/*
+./log
+log
+/*/*/log/*
+/*/*/*/log/*
+/*/*/logs/*
+/*/*/*/logs/*
+# jetbrains project files
+/*/.idea/
+.DS_Store
+.springBeans
+*.iml
+# eclipse project files
+*.classpath
+*.project
+.settings/*
+*/*/backList
+#idea
+.idea/*
